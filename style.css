@@ -17,7 +17,7 @@
   body {
     margin: 0;
     font-family: "Euclid Circular A";
-    background: #f9f9f9;
+    background: #fef4f4;
     color: #f9f9f9;
   }
   
@@ -187,6 +187,14 @@
     position: relative;
     top: 30%;
     color: #f9f9f9;
+    transition: all 0.3s ease 0s;
+  }
+
+  .message:hover {
+    background-color: #fef4f4;
+    color: #72eb3a;
+    transition: all 0.3 ease 0s;
+    transform: scale(1.1);
   }
 
   .first {
@@ -361,7 +369,6 @@
   display: flex;
   overflow: hidden;
   text-decoration: none;
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
   background: var(--background);
   border-radius: 8px;
   box-shadow: 0 2px 8px -1px var(--shadow);
@@ -621,7 +628,7 @@ html {
   margin: 16px;
 }
 @media (max-width: 400px) {
-  body .container .button {
+  body .container2 .button {
     margin: 12px;
   }
 }
@@ -635,4 +642,110 @@ html {
 .dribbble img {
   display: block;
   height: 28px;
+}
+
+.line1 {
+  background-color: #17181a;
+  color: #17181a;
+  position: relative;
+  top: 75%;
+  z-index: -1;
+  transition: all 0.3s ease 0s;
+ }
+
+ .social-media {
+  display: flex;
+  flex-direction: row;
+  color: #17181a;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+  top: 80%;
+  justify-content: center;
+ }
+
+ .buttot {
+  min-width: 20%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 90%;
+  z-index: -1;
+}
+
+.buttot #ae {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 60px;
+  text-align: center;
+  background: #17181a;
+  color: #f1f1f1;
+  border-radius: 50% 50% 50% 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+.buttot #af {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 60px;
+  text-align: center;
+  background: #17181a;
+  color: #f1f1f1;
+  border-radius: 50% 50% 50% 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+
+.buttot #ai {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 60px;
+  text-align: center;
+  background: #17181a;
+  color: #f1f1f1;
+  border-radius: 50% 50% 50% 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+
+
+.buttot #ae:hover {
+  color: #fff;
+  background-color: #184fee;
+  transform: scale(1.2);
+}
+
+.buttot #af:hover {
+  color: #fff;
+  background: linear-gradient(240deg,#ff11c7d4,#f789ffd4,#ff2525d4);
+  transform: scale(1.2);
+}
+
+.buttot #ad:hover {
+  color: red;
+  background-color: whitesmoke;
+  transform: scale(1.2);
+}
+
+.buttot #ai:hover {
+  color: red;
+  background-color: whitesmoke;
+  transform: scale(1.2);
+}
+
+
+.line2 {
+  background-color: #17181a;
+  color: #17181a;
+  position: relative;
+  top: 100%;
+  z-index: -1;
+  transition: all 0.3s ease 0s;
 }

@@ -98,6 +98,17 @@ document.querySelectorAll('.button').forEach(button => {
                     [8, 19],
                     [21, 6]
                 ]);
+                
+                // Crear un enlace de descarga y simular clic
+                var enlaceDescarga = document.createElement("a");
+                enlaceDescarga.href = button.getAttribute("href");
+                enlaceDescarga.download = button.getAttribute("download");
+                enlaceDescarga.style.display = "none";
+                document.body.appendChild(enlaceDescarga);
+                enlaceDescarga.click();
+                document.body.removeChild(enlaceDescarga);
+                
+
             }, duration / 2);
 
         }
