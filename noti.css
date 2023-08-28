@@ -112,19 +112,19 @@
   }
   
   .tabs input:nth-child(1):checked ~ .buttons .underline {
-    translate: 0 0;
+    translate: 0% 0;
   }
   
   .tabs input:nth-child(2):checked ~ .buttons .underline {
-    translate: 100% 0;
+    translate: 0% 0;
   }
   
   .tabs input:nth-child(3):checked ~ .buttons .underline {
-    translate: 200% 0;
+    translate: 33% 0;
   }
   
   .tabs input:nth-child(4):checked ~ .buttons .underline {
-    translate: 300% 0;
+    translate: 67% 0;
   }
   
   .tabs input:nth-child(1):checked ~ .buttons label:nth-child(1),
